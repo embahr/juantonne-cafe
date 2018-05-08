@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+body {
+  top: 0;
+  margin: 0;
+  background-color: gainsboro; }
+
+.section__welcome {
+  background: url("../assets/images/hero_cafe.jpg") fixed;
+  background-size: cover;
+  height: 100vh; }
+  .section__welcome .welcome__header {
+    text-align: center;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 10px; }
+/*# sourceMappingURL=styles.css.map */

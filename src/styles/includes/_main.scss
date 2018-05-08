@@ -1,0 +1,22 @@
+body {
+    top: 0;
+    margin: 0;
+    background-color: $color-background-light;    
+}
+
+// WELCOME SECTION
+.section {
+    &__welcome {
+        background: url("../assets/images/hero_cafe.jpg") fixed;
+        background-size: cover;
+        height: 100vh;
+        .welcome {
+            &__header {
+                text-align: center;
+                color: white;
+                font-family: 'Abril Fatface', cursive;
+                letter-spacing: 10px;
+            }
+        }
+    }
+}
