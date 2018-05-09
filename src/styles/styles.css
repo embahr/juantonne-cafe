@@ -1,16 +1,152 @@
-@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway|Satisfy");
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 10px; }
+
+h2 {
+  font-family: 'Satisfy', cursive;
+  font-size: 2.6rem;
+  letter-spacing: 3px; }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px; }
+
+p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.4; }
+
 body {
   top: 0;
   margin: 0;
-  background-color: gainsboro; }
+  background-color: #f8f8f8; }
+
+.menu {
+  position: fixed;
+  width: 100%;
+  color: aliceblue; }
 
 .section__welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: url("../assets/images/hero_cafe.jpg") fixed;
   background-size: cover;
   height: 100vh; }
   .section__welcome .welcome__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+    font-size: 2rem;
     text-align: center;
-    color: white;
-    font-family: 'Abril Fatface', cursive;
-    letter-spacing: 10px; }
+    color: white; }
+    .section__welcome .welcome__header h1 {
+      width: 100%;
+      margin: 0;
+      font-family: 'Abril Fatface', cursive;
+      letter-spacing: 10px; }
+    .section__welcome .welcome__header p {
+      margin-top: 2em;
+      -ms-flex-item-align: baseline;
+          align-self: baseline;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 5px; }
+  .section__welcome .wrapper {
+    position: absolute;
+    bottom: -66px;
+    left: 45%; }
+
+.section__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10% 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+  .section__info .info {
+    margin: 0;
+    width: 30%; }
+    .section__info .info__text h2 {
+      margin: 0;
+      font-variant: small-caps;
+      color: rgba(35, 35, 35, 0.9); }
+    .section__info .info__text h4 {
+      margin: 0 0 2em 0;
+      color: rgba(170, 130, 115, 0.9); }
+    .section__info .info__text p {
+      text-align: justify; }
+    .section__info .info__text blockquote {
+      font-family: "Abril Fatface", serif;
+      font-size: 18px;
+      font-style: italic;
+      width: 500px;
+      margin: 5em 0.25em 0 0.25em;
+      padding: 0.35em 40px;
+      line-height: 1.45;
+      position: relative;
+      color: #383838; }
+    .section__info .info__text blockquote:before {
+      display: block;
+      padding-left: 10px;
+      content: "\201C";
+      font-size: 80px;
+      position: absolute;
+      left: -20px;
+      top: -20px;
+      color: rgba(170, 130, 115, 0.9); }
+    .section__info .info__text blockquote cite {
+      color: #999999;
+      font-size: 14px;
+      display: block;
+      margin-top: 5px; }
+    .section__info .info__text blockquote cite:before {
+      content: "\2014 \2009"; }
+    .section__info .info__image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      overflow: hidden; }
+
+.section__feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../assets/images/images_feature.jpg") fixed;
+  background-size: cover;
+  height: 80vh; }
+  .section__feature .feature__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    background-color: #f8f8f8;
+    height: 65%;
+    width: 65%;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+    .section__feature .feature__card .card__image {
+      overflow: hidden; }
+      .section__feature .feature__card .card__image img {
+        height: 100%; }
 /*# sourceMappingURL=styles.css.map */
