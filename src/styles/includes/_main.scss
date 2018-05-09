@@ -4,19 +4,150 @@ body {
     background-color: $color-background-light;    
 }
 
+// MENU
+.menu {
+    position: fixed;
+    width: 100%;
+    color: aliceblue;
+}
+
 // WELCOME SECTION
 .section {
     &__welcome {
+        display: flex;
         background: url("../assets/images/hero_cafe.jpg") fixed;
         background-size: cover;
         height: 100vh;
         .welcome {
             &__header {
+                display: flex;
+                width: 100%;
+                justify-content: center; 
+                align-items: flex-end;
+                flex-wrap: wrap;
+                margin: 0;
+                font-size: 2rem;
                 text-align: center;
                 color: white;
-                font-family: 'Abril Fatface', cursive;
-                letter-spacing: 10px;
+                h1 {
+                    width: 100%;
+                    margin: 0;
+                    font-family: 'Abril Fatface', cursive;
+                    letter-spacing: 10px;
+                }
+                p {
+                    margin-top: 2em;
+                    align-self: baseline;
+                    font-family: 'Raleway', sans-serif;
+                    letter-spacing: 5px;
+                }
             }
+        }
+        .wrapper {
+            position: absolute;
+            bottom: -66px;
+            left: 45%;
+            
+        }
+        
+
+    }
+}
+
+// INFO SECTION
+.section {
+    &__info {
+        display: flex;
+        margin: 10% 0;
+        justify-content: space-evenly;
+        .info {
+            margin: 0;
+            width: 30%;
+            &__text {
+                h2 {
+                    margin: 0;
+                    font-variant: small-caps;
+                    color: $color-main;
+                }
+                h4 {
+                    margin: 0 0 2em 0;
+                    color: $color-main-contrast;
+                }
+                p {
+                    text-align: justify;
+                     
+                }
+                blockquote {
+                    font-family: "Abril Fatface", serif;
+                    font-size: 18px;
+                    font-style: italic;
+                    width: 500px;
+                    margin: 5em 0.25em 0 0.25em;
+                    padding: 0.35em 40px;
+                    line-height: 1.45;
+                    position: relative;
+                    color: #383838;
+                }
+                
+                blockquote:before {
+                    display: block;
+                    padding-left: 10px;
+                    content: "\201C";
+                    font-size: 80px;
+                    position: absolute;
+                    left: -20px;
+                    top: -20px;
+                    color: $color-main-contrast;
+                }
+                
+                blockquote cite {
+                    color: #999999;
+                    font-size: 14px;
+                    display: block;
+                    margin-top: 5px;
+                }
+                
+                blockquote cite:before {
+                    content: "\2014 \2009";
+                }
+            }
+            &__image {
+                display: flex;
+                flex-wrap: wrap;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+// FEATURE SECTION
+.section {
+    &__feature {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("../assets/images/images_feature.jpg") fixed;
+        background-size: cover;
+        height: 80vh;
+        .feature__card {
+            display: flex;
+            justify-content: flex-start;
+            background-color: $color-background-light;;
+            height: 65%;
+            width: 65%;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+            .card {
+                &__image {
+                    overflow: hidden;
+                    img {
+                        height: 100%;
+                    }
+                }
+                &__text {
+
+                }
+            }
+            
         }
     }
 }

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import Menu from '../components/menu'
 import Welcome from '../components/welcome'
 import '../styles/styles.css'
 
@@ -15,8 +16,10 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
-    <Welcome />
+    <Menu />
+    <Welcome siteTitle={data.site.siteMetadata.title} />
+    
+    {children()}
 
   </div>
 )
