@@ -1,20 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway|Satisfy");
+h1, h2, h3, h4, p {
+  margin: 0; }
+
 h1 {
   font-family: 'Abril Fatface', cursive;
   letter-spacing: 10px; }
 
 h2 {
+  line-height: 1;
+  margin-bottom: 0.5rem;
   font-family: 'Satisfy', cursive;
   font-size: 2.6rem;
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+  color: rgba(35, 35, 35, 0.9); }
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 4px; }
 
 h4 {
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 2px; }
+  font-style: italic;
+  letter-spacing: 2px;
+  color: rgba(170, 130, 115, 0.9); }
 
 p {
   font-family: 'Raleway', sans-serif;
-  line-height: 1.4; }
+  line-height: 1.4;
+  text-align: justify; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 body {
   top: 0;
@@ -23,7 +40,6 @@ body {
 
 .menu {
   position: fixed;
-  width: 100%;
   color: aliceblue; }
 
 .section__welcome {
@@ -34,33 +50,16 @@ body {
   background-size: cover;
   height: 100vh; }
   .section__welcome .welcome__header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 0;
-    font-size: 2rem;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 4 32rem;
+            flex: 1 4 32rem;
+    margin: 14%;
     text-align: center;
     color: white; }
-    .section__welcome .welcome__header h1 {
-      width: 100%;
-      margin: 0;
-      font-family: 'Abril Fatface', cursive;
-      letter-spacing: 10px; }
     .section__welcome .welcome__header p {
       margin-top: 2em;
       -ms-flex-item-align: baseline;
-          align-self: baseline;
-      font-family: 'Raleway', sans-serif;
-      letter-spacing: 5px; }
+          align-self: baseline; }
   .section__welcome .wrapper {
     position: absolute;
     bottom: -66px;
@@ -70,83 +69,136 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10% 0;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
-  .section__info .info {
-    margin: 0;
-    width: 30%; }
-    .section__info .info__text h2 {
-      margin: 0;
-      font-variant: small-caps;
-      color: rgba(35, 35, 35, 0.9); }
-    .section__info .info__text h4 {
-      margin: 0 0 2em 0;
-      color: rgba(170, 130, 115, 0.9); }
-    .section__info .info__text p {
-      text-align: justify; }
-    .section__info .info__text blockquote {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 8em 0; }
+  .section__info .info__text {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 3 24rem;
+            flex: 1 3 24rem;
+    margin: 0 7%; }
+    .section__info .info__text h4, .section__info .info__text p {
+      margin-bottom: 2em; }
+  .section__info .info__image {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 24rem;
+            flex: 1 1 24rem; }
+    .section__info .info__image img {
+      -o-object-fit: cover;
+         object-fit: cover;
+      width: 100%;
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+  .section__info .info__quote {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    width: 100%; }
+    .section__info .info__quote blockquote {
       font-family: "Abril Fatface", serif;
       font-size: 18px;
       font-style: italic;
-      width: 500px;
-      margin: 5em 0.25em 0 0.25em;
+      text-align: justify;
+      margin: 3em 0.25em 0em 0.25em;
       padding: 0.35em 40px;
       line-height: 1.45;
       position: relative;
       color: #383838; }
-    .section__info .info__text blockquote:before {
-      display: block;
-      padding-left: 10px;
-      content: "\201C";
-      font-size: 80px;
-      position: absolute;
-      left: -20px;
-      top: -20px;
-      color: rgba(170, 130, 115, 0.9); }
-    .section__info .info__text blockquote cite {
-      color: #999999;
-      font-size: 14px;
-      display: block;
-      margin-top: 5px; }
-    .section__info .info__text blockquote cite:before {
-      content: "\2014 \2009"; }
-    .section__info .info__image {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-      overflow: hidden; }
+      .section__info .info__quote blockquote:before {
+        display: block;
+        padding-left: 10px;
+        content: "\201C";
+        font-size: 80px;
+        position: absolute;
+        left: -20px;
+        top: -20px;
+        color: rgba(170, 130, 115, 0.9); }
+      .section__info .info__quote blockquote cite {
+        color: #999999;
+        font-size: 14px;
+        display: block;
+        margin-top: 5px; }
+        .section__info .info__quote blockquote cite:before {
+          content: "\2014 \2009"; }
 
 .section__feature {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   background: url("../assets/images/images_feature.jpg") fixed;
-  background-size: cover;
-  height: 80vh; }
-  .section__feature .feature__card {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    background-color: #f8f8f8;
-    height: 65%;
-    width: 65%;
-    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
-    .section__feature .feature__card .card__image {
-      overflow: hidden; }
-      .section__feature .feature__card .card__image img {
-        height: 100%; }
+  background-size: cover; }
+  .section__feature .feature {
+    margin: 2rem;
+    background-color: #f8f8f8; }
+    .section__feature .feature__card {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+              box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+      .section__feature .feature__card .card {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 20em;
+                flex: 1 1 20em; }
+        .section__feature .feature__card .card__header {
+          width: 100%;
+          padding: 2rem; }
+        .section__feature .feature__card .card__image {
+          overflow: hidden; }
+          .section__feature .feature__card .card__image img {
+            height: 100%;
+            width: 100%; }
+        .section__feature .feature__card .card__text {
+          margin: 2em; }
+          .section__feature .feature__card .card__text h4 {
+            margin-bottom: 2em; }
+
+.section__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 8% 0;
+  max-width: 100rem; }
+  .section__gallery .gallery {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 16rem;
+            flex: 1 1 16rem;
+    margin: 0.5rem 1rem; }
+    .section__gallery .gallery__header h4 {
+      margin-bottom: 1rem; }
+    .section__gallery .gallery__image {
+      overflow: hidden;
+      -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+              box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+      .section__gallery .gallery__image img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover; }
+
+.footer__banner {
+  height: 10rem;
+  width: 100%;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); }
+  .footer__banner h2 {
+    text-align: center;
+    color: #f8f8f8; }
 /*# sourceMappingURL=styles.css.map */

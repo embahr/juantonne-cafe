@@ -235,22 +235,6 @@
 		"oAP": "\/.cache\/json\/nothing",
 		"oF": 0
 		},
-	"\/.cache\/json\/page.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/.cache\/json\/page-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/.cache\/json\/welcome.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/.cache\/json\/welcome-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/.cache\/layouts\/index.js": {
 		"ft": 64,
 		"ma": 0,
@@ -419,6 +403,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/gatsby-config-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/gatsby-config-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/gatsby-config.js": {
 		"ft": 64,
 		"ma": 0,
@@ -582,6 +576,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/src\/assets\/images\/images_info_5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/assets\/images\/images_info_6.jpg": {
+		"ft": 16384,
+		"iS": 3671861,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/src\/assets\/images\/images_info_6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/assets\/images\/images_info_7.jpg": {
+		"ft": 16384,
+		"iS": 4634323,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/src\/assets\/images\/images_info_7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,

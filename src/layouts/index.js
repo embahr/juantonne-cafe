@@ -6,21 +6,23 @@ import Header from '../components/header'
 import Menu from '../components/menu'
 import Welcome from '../components/welcome'
 import '../styles/styles.css'
+import Footer from '../components/footer'
 
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: data.site.siteMetadata.description },
+        { name: 'keywords', content: data.site.siteMetadata.keywords },
       ]}
     />
     <Menu />
     <Welcome siteTitle={data.site.siteMetadata.title} />
     
     {children()}
-
+    
+    <Footer />
   </div>
 )
 
@@ -31,10 +33,12 @@ Layout.propTypes = {
 export default Layout
 
 export const query = graphql`
-  query SiteTitleQuery {
+  query SiteQuery {
     site {
       siteMetadata {
         title
+        description
+        keywords
       }
     }
   }
