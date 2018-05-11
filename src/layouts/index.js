@@ -6,7 +6,7 @@ import Header from '../components/header'
 import Menu from '../components/menu'
 import Welcome from '../components/welcome'
 import '../styles/styles.css'
-import Footer from '../components/footer'
+
 
 const Layout = ({ children, data }) => (
   <div>
@@ -18,11 +18,13 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Menu />
-    <Welcome siteTitle={data.site.siteMetadata.title} />
+    <Welcome 
+      heading={data.site.siteMetadata.title} 
+      subHeading={data.site.siteMetadata.description}
+    />
     
     {children()}
-    
-    <Footer />
+
   </div>
 )
 

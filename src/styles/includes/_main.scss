@@ -9,48 +9,144 @@ body {
 }
 
 // MENU
-.menu {
+nav {
+    z-index: 10;
     position: fixed;
-    // width: 100%;
-    color: aliceblue;
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	overflow: hidden;
+	padding: 1em;
+    font-family: "Abril Fatface", cursive;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+	a {
+		color: #FFF;
+	}
+
+	a:visited {
+		color: #FFF;
+	}
+	border-bottom: 1px solid $color-main;
+	.menu__desktop {
+		display: none;
+		margin: 0 auto;
+		.desktop__links {
+			text-align: center;
+			a {
+				text-decoration: none;
+				display: inline-block;
+				padding: 0 2em;
+			}
+		}
+	}
+
+
+	.menu__mobile {
+        display: flex;
+		justify-content: flex-start;
+        width: 100%;
+        .menu__toggle {
+            z-index: 20;
+            // position: fixed;
+            width: 40px;
+            cursor: pointer;
+          .one, .two, .three{
+                width: 70%;
+                height: 2px;
+                background: $color-background-light;
+                margin: 6px auto;
+                margin-left: 0;
+              }
+              .two {
+                width: 50%;
+              }
+            }
+
+		.mobile__links {
+            display: none;
+            margin-left: 8rem;
+            width: 100%;
+            align-content: center;
+			a {
+				text-decoration: none;
+				display: block;
+				float: left;
+				clear: left;
+				padding: 0.5em 0;
+			}
+		}
+	}
 }
+
+@include mq('tablet', min) {
+    nav {
+		.menu__desktop {
+			display: block;
+		}
+		.menu__mobile {
+			display: none;
+		}
+	}
+}
+
+
+
+
+
 
 // WELCOME SECTION
 .section {
     &__welcome {
         display: flex;
+        align-items: center;
         background: url("../assets/images/hero_cafe.jpg") fixed;
         background-size: cover;
         height: 100vh;
         .welcome {
             &__header {
-                flex: 1 4 32rem;
-                // display: flex;
-                // width: 100%;
-                // justify-content: center; 
-                
-                // flex-wrap: wrap;
-                margin: 14%;
-                // font-size: 2rem;
+                flex: 1 1 32rem;
+                align-items: center;
+                margin: 0 1rem;
                 text-align: center;
                 color: white;
                 h1 {
-            
+                    font-size: 2.2rem;
+                }
+                h3 {
+                    font-size: 1.2rem;
                 }
                 p {
-                    margin-top: 2em;
+                    margin-top: 2rem;
                     align-self: baseline;
+                }
+                @include mq('tablet', min) {
+                    h1 {
+                        font-size: 5rem;
+                    }
+                    h3 {
+                        font-size: 2rem;
+                    }
+                }
+                @include mq('desktop-narrow', min) {
+                    h1 {
+                        font-size: 5rem;
+                    }
+                    h3 {
+                        font-size: 2rem;
+                    }
                 }
             }
         }
         .wrapper {
+            display: flex;
+            justify-content: center;
             position: absolute;
             bottom: -66px;
-            left: 45%;
-            
+            width: 100%;
         }
-        
-
     }
 }
 
@@ -59,35 +155,32 @@ body {
     &__info {
         display: flex;
         flex-flow: row wrap;
-        margin: 8em 0;
+        margin: 8rem 0;
+        @include mq('tablet-wide', min) {
+            margin: 8rem 0 0 0;
+        }     
         .info {
-            // width: 30%;
             &__text {
                 flex: 1 3 24rem;
-                margin: 0 7%;
                 h4, p {
                     margin-bottom: 2em;
                 }
             }
             &__image {
                 flex: 1 1 24rem;
-                // margin: 0 7%;
                 img {
-                    object-fit: cover;
                     width: 100%;
                     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
                 }
             }
             &__quote {
                 flex: 1 1 100%;
-                align-content: center;
-                width: 100%;
                 blockquote {
                     font-family: "Abril Fatface", serif;
                     font-size: 18px;
                     font-style: italic;
                     text-align: justify;
-                    margin: 3em 0.25em 0em 0.25em;
+                    margin: 3em 0.5em 0em 0.5em;
                     padding: 0.35em 40px;
                     line-height: 1.45;
                     position: relative;
@@ -104,13 +197,49 @@ body {
                     }
                     cite {
                         color: #999999;
-                        font-size: 14px;
+                        font-size: 0.8rem;
                         display: block;
-                        margin-top: 5px;
+                        margin-top: 0.35rem;
                         &:before {
                             content: "\2014 \2009";
                         }
                     }
+                }
+            }
+
+            @include mq('tablet', min) {
+                &__quote blockquote {
+                    margin: 4rem 6rem 0rem 6rem;
+                }
+            }
+            @include mq('tablet-wide', min) {
+                &__text {
+                    margin: 0 2% 0 7%;
+                }
+                &__image {
+                    margin: 0 7% 0 2%;
+                }
+                &__quote blockquote {
+                    margin: 2rem 6rem 2rem 6rem;
+                }
+            }
+            @include mq('desktop-narrow', min) {
+                &__quote blockquote {
+                    top: -10rem;
+                    margin: 4rem 0 0 6rem;
+                    width: 40%;
+                }
+            }
+            @include mq('desktop', min) {
+                &__quote blockquote {
+                    top: -12rem;
+                    margin: 4rem 0 0 9rem;
+                    width: 40%;
+                }
+            }
+            @include mq('desktop') {
+                &__text {
+                    margin: 0 7%;
                 }
             }
         }
@@ -127,44 +256,46 @@ body {
         background: url("../assets/images/images_feature.jpg") fixed;
         background-size: cover;
         .feature {
-            margin: 2rem;
-            // width: 70%;
+            margin: 1rem;
             background-color: $color-background-light;      
             &__card {
                 display: flex;
                 flex-wrap: wrap;
-
                 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
                 .card {
-                    flex: 1 1 20em;
+                    flex: 1 1 20rem;
                     &__header {
                         width: 100%;
                         padding: 2rem;
                     }
                     &__image {
+                        width: 100%;
                         overflow: hidden;
                         img {
+                            object-fit: cover;
                             height: 100%;
                             width: 100%;
                         }
                     }
                     &__text {
-                        margin: 2em;
-                    
-                        // width: 45%;
-                        // align-self: center;
-                        // text-align: center;
-                        h4 {
-                            margin-bottom: 2em;
-                            // margin: 0 0 2em 0;
-                            // color: $color-main-contrast;
-                        }
-                        p {
-                            // text-align: justify;
-                        }
+                        margin: 2rem;
                     }
                 }
-                
+                @include mq('tablet', min) {
+                    margin: 4rem;
+                }
+                @include mq('tablet-wide', min) {
+                    margin: 7rem;
+                }
+                @include mq('desktop-narrow', min) {
+                    margin: 10rem;
+                }
+                @include mq('desktop', min) {
+                    margin: 13rem;
+                }
+                @include mq('desktop-wide', min) {
+                    margin: 16rem;
+                }
             }
         }
     }
@@ -174,19 +305,11 @@ body {
 .section {
     &__gallery {
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
-        margin: 8% 0;
-        max-width: 100rem;
+        margin: 8rem 2rem;
         .gallery {
             flex: 1 1 16rem;
             margin: 0.5rem 1rem;
-            &__header {
-                h4 {
-                    margin-bottom: 1rem;
-                }
-                
-            }
             &__image {
                 overflow: hidden;
                 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -195,13 +318,7 @@ body {
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
-                    // overflow: hidden;
-                    // margin: 2%;
-                    // box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
                 }
-            }
-            &__text {
-
             }
         }
     }
@@ -209,10 +326,13 @@ body {
 
 // FOOTER
 .footer {
-    
     &__banner {
-        height: 10rem;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        // height: 10rem;
         width: 100%;
+        padding: 8rem 1rem;
         // background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
         // background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
         // background-blend-mode: multiply;
@@ -221,5 +341,23 @@ body {
             text-align: center;
             color: $color-background-light;
         }
+        .footer__email {
+            &:hover {
+                background-color: $color-main-contrast;
+            }
+        }
+        .footer__copy, a {
+            line-height: 1.6;
+            margin-top: 4rem;
+            font-family: "Raleway", sans-serif;
+            font-size: 1rem;
+            color: $color-background-light;
+            text-decoration: none;
+            letter-spacing: 1px;
+            a:hover {
+                background-color: $color-main-contrast;
+            }
+        }
     }
+ 
 }
