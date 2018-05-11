@@ -472,11 +472,203 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/public\/render-page.js.map": {
+	"\/public\/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/public\/render-page.js.map",
+		"oAP": "\/public\/404.html",
+		"oF": 0
+		},
+	"\/public\/404\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/404\/index.html",
+		"oF": 0
+		},
+	"\/public\/app-59f2429b2c98978a2fcb.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/app-59f2429b2c98978a2fcb-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/app-59f2429b2c98978a2fcb.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/app-59f2429b2c98978a2fcb.js.map",
+		"oF": 0
+		},
+	"\/public\/build-js-styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/build-js-styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/public\/build-js-styles.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/build-js-styles.css.map",
+		"oF": 0
+		},
+	"\/public\/chunk-manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/public\/chunk-manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/public\/commons-57f259f66bde6a64c69d.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/commons-57f259f66bde6a64c69d-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/commons-57f259f66bde6a64c69d.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/commons-57f259f66bde6a64c69d.js.map",
+		"oF": 0
+		},
+	"\/public\/component---src-layouts-index-js-5c7cb550721179645f3f.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-5c7cb550721179645f3f-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/component---src-layouts-index-js-5c7cb550721179645f3f.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-5c7cb550721179645f3f.js.map",
+		"oF": 0
+		},
+	"\/public\/component---src-pages-404-js-f6662393a31fb18d5e07.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-pages-404-js-f6662393a31fb18d5e07-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/component---src-pages-404-js-f6662393a31fb18d5e07.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/component---src-pages-404-js-f6662393a31fb18d5e07.js.map",
+		"oF": 0
+		},
+	"\/public\/component---src-pages-index-js-acab9db713a98b73e309.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-pages-index-js-acab9db713a98b73e309-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/component---src-pages-index-js-acab9db713a98b73e309.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/component---src-pages-index-js-acab9db713a98b73e309.js.map",
+		"oF": 0
+		},
+	"\/public\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/index.html",
+		"oF": 0
+		},
+	"\/public\/path----5fb34e60fea0ee5d045a.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/path----5fb34e60fea0ee5d045a-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/path----5fb34e60fea0ee5d045a.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/path----5fb34e60fea0ee5d045a.js.map",
+		"oF": 0
+		},
+	"\/public\/path---404-a0e39f21c11f6a62c5ab.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/path---404-a0e39f21c11f6a62c5ab-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/path---404-a0e39f21c11f6a62c5ab.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/path---404-a0e39f21c11f6a62c5ab.js.map",
+		"oF": 0
+		},
+	"\/public\/path---404-html-a0e39f21c11f6a62c5ab.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/path---404-html-a0e39f21c11f6a62c5ab-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/path---404-html-a0e39f21c11f6a62c5ab.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/path---404-html-a0e39f21c11f6a62c5ab.js.map",
+		"oF": 0
+		},
+	"\/public\/path---index-a0e39f21c11f6a62c5ab.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/path---index-a0e39f21c11f6a62c5ab-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/path---index-a0e39f21c11f6a62c5ab.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/path---index-a0e39f21c11f6a62c5ab.js.map",
 		"oF": 0
 		},
 	"\/public\/static\/hero_cafe.c4e156a4.jpg": {
@@ -486,9 +678,9 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/hero_cafe.c4e156a4.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
 		},
 	"\/public\/static\/images_feature.08170df3.jpg": {
 		"ft": 16384,
@@ -497,9 +689,9 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/images_feature.08170df3.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
 		},
 	"\/public\/static\/images_info_1.be18c032.jpg": {
 		"ft": 16384,
@@ -508,9 +700,9 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/images_info_1.be18c032.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
 		},
 	"\/public\/static\/images_info_2.4155575a.jpg": {
 		"ft": 16384,
@@ -519,9 +711,9 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/images_info_2.4155575a.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
 		},
 	"\/public\/static\/images_info_3.315c17ad.jpg": {
 		"ft": 16384,
@@ -530,9 +722,9 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/images_info_3.315c17ad.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
 		},
 	"\/public\/static\/images_info_4.49cab02a.jpg": {
 		"ft": 16384,
@@ -541,9 +733,9 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/images_info_4.49cab02a.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
 		},
 	"\/public\/static\/images_info_7.ca97ff6d.jpg": {
 		"ft": 16384,
@@ -552,9 +744,17 @@
 		"oA": 0,
 		"oAP": "\/public\/static\/images_info_7.ca97ff6d.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 70
+		},
+	"\/public\/stats.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/public\/stats-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/public\/styles.css": {
 		"aP": 1,
