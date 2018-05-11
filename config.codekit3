@@ -13,7 +13,7 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/.cache\/.cache\/cache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.cache\/__tests__\/__snapshots__\/loader.js.snap": {
 		"cB": 0,
@@ -108,7 +108,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/.cache\/async-requires-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -116,7 +116,7 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/.cache\/cache",
-		"oF": 0
+		"oF": 1
 		},
 	"\/.cache\/component-renderer.js": {
 		"ft": 64,
@@ -192,7 +192,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/json\/404-html-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -200,7 +200,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/json\/404-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -208,7 +208,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/json\/dev-404-page-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -216,7 +216,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/json\/index-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -224,7 +224,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/json\/layout-index-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -239,9 +239,9 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/.cache\/layouts\/index-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -259,7 +259,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/pages-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -287,7 +287,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/redirects-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -295,7 +295,7 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/.cache\/redux-state-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -365,7 +365,7 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/.cache\/sync-requires-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -486,22 +486,32 @@
 		"oAP": "\/public\/404\/index.html",
 		"oF": 0
 		},
-	"\/public\/app-59f2429b2c98978a2fcb.js": {
+	"\/public\/app-59f2429b2c98978a2fcb-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/app-59f2429b2c98978a2fcb-min.js",
+		"oAP": "\/public\/app-59f2429b2c98978a2fcb-min-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/app-59f2429b2c98978a2fcb.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/public\/app-59f2429b2c98978a2fcb-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/app-59f2429b2c98978a2fcb.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/app-59f2429b2c98978a2fcb.js.map",
-		"oF": 0
+		"oF": 1
 		},
 	"\/public\/build-js-styles.css": {
 		"aP": 1,
@@ -516,85 +526,169 @@
 	"\/public\/build-js-styles.css.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/build-js-styles.css.map",
-		"oF": 0
+		"oF": 1
 		},
 	"\/public\/chunk-manifest.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/public\/chunk-manifest-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/public\/commons-57f259f66bde6a64c69d-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/commons-57f259f66bde6a64c69d-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/public\/commons-57f259f66bde6a64c69d.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/commons-57f259f66bde6a64c69d-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/commons-57f259f66bde6a64c69d.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/commons-57f259f66bde6a64c69d.js.map",
+		"oF": 1
+		},
+	"\/public\/component---src-layouts-index-js-053eee1b667cadaf7565-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-053eee1b667cadaf7565-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/component---src-layouts-index-js-053eee1b667cadaf7565.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-053eee1b667cadaf7565-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/component---src-layouts-index-js-053eee1b667cadaf7565.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-053eee1b667cadaf7565.js.map",
 		"oF": 0
+		},
+	"\/public\/component---src-layouts-index-js-5c7cb550721179645f3f-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-5c7cb550721179645f3f-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/public\/component---src-layouts-index-js-5c7cb550721179645f3f.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/component---src-layouts-index-js-5c7cb550721179645f3f-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/component---src-layouts-index-js-5c7cb550721179645f3f.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/component---src-layouts-index-js-5c7cb550721179645f3f.js.map",
+		"oF": 1
+		},
+	"\/public\/component---src-layouts-index-js-f916c6e9c091abcfd45c.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-f916c6e9c091abcfd45c-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/component---src-layouts-index-js-f916c6e9c091abcfd45c.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/public\/component---src-layouts-index-js-f916c6e9c091abcfd45c.js.map",
 		"oF": 0
+		},
+	"\/public\/component---src-pages-404-js-f6662393a31fb18d5e07-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-pages-404-js-f6662393a31fb18d5e07-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/public\/component---src-pages-404-js-f6662393a31fb18d5e07.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/component---src-pages-404-js-f6662393a31fb18d5e07-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/component---src-pages-404-js-f6662393a31fb18d5e07.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/component---src-pages-404-js-f6662393a31fb18d5e07.js.map",
-		"oF": 0
+		"oF": 1
+		},
+	"\/public\/component---src-pages-index-js-acab9db713a98b73e309-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/component---src-pages-index-js-acab9db713a98b73e309-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/public\/component---src-pages-index-js-acab9db713a98b73e309.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/component---src-pages-index-js-acab9db713a98b73e309-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/component---src-pages-index-js-acab9db713a98b73e309.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/component---src-pages-index-js-acab9db713a98b73e309.js.map",
-		"oF": 0
+		"oF": 1
 		},
 	"\/public\/index.html": {
 		"cB": 0,
@@ -603,156 +697,207 @@
 		"oAP": "\/public\/index.html",
 		"oF": 0
 		},
-	"\/public\/path----5fb34e60fea0ee5d045a.js": {
+	"\/public\/path----5fb34e60fea0ee5d045a-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/path----5fb34e60fea0ee5d045a-min.js",
+		"oAP": "\/public\/path----5fb34e60fea0ee5d045a-min-min.js",
 		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/public\/path----5fb34e60fea0ee5d045a.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/public\/path----5fb34e60fea0ee5d045a-min.js",
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/path----5fb34e60fea0ee5d045a.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/path----5fb34e60fea0ee5d045a.js.map",
-		"oF": 0
+		"oF": 1
+		},
+	"\/public\/path---404-a0e39f21c11f6a62c5ab-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/path---404-a0e39f21c11f6a62c5ab-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/public\/path---404-a0e39f21c11f6a62c5ab.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/path---404-a0e39f21c11f6a62c5ab-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/path---404-a0e39f21c11f6a62c5ab.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/path---404-a0e39f21c11f6a62c5ab.js.map",
-		"oF": 0
+		"oF": 1
+		},
+	"\/public\/path---404-html-a0e39f21c11f6a62c5ab-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/path---404-html-a0e39f21c11f6a62c5ab-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/public\/path---404-html-a0e39f21c11f6a62c5ab.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/path---404-html-a0e39f21c11f6a62c5ab-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/path---404-html-a0e39f21c11f6a62c5ab.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/path---404-html-a0e39f21c11f6a62c5ab.js.map",
-		"oF": 0
+		"oF": 1
+		},
+	"\/public\/path---index-a0e39f21c11f6a62c5ab-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/path---index-a0e39f21c11f6a62c5ab-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/public\/path---index-a0e39f21c11f6a62c5ab.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/path---index-a0e39f21c11f6a62c5ab-min.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
 	"\/public\/path---index-a0e39f21c11f6a62c5ab.js.map": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/path---index-a0e39f21c11f6a62c5ab.js.map",
-		"oF": 0
+		"oF": 1
 		},
 	"\/public\/static\/hero_cafe.c4e156a4.jpg": {
 		"ft": 16384,
-		"iS": 196563,
+		"iS": 0,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/hero_cafe.c4e156a4.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/public\/static\/hero_mobile.b9126dba.jpg": {
+		"ft": 16384,
+		"iS": 37758,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/public\/static\/hero_cafe.c4e156a4.jpg",
+		"oAP": "\/public\/static\/hero_mobile.b9126dba.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"q": 70
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/public\/static\/images_feature.08170df3.jpg": {
 		"ft": 16384,
 		"iS": 498529,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/images_feature.08170df3.jpg",
-		"oF": 0,
-		"oIPL": 1,
+		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"q": 70
+		"q": 100
 		},
 	"\/public\/static\/images_info_1.be18c032.jpg": {
 		"ft": 16384,
 		"iS": 55236,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/images_info_1.be18c032.jpg",
-		"oF": 0,
-		"oIPL": 1,
+		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"q": 70
+		"q": 100
 		},
 	"\/public\/static\/images_info_2.4155575a.jpg": {
 		"ft": 16384,
 		"iS": 18943,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/images_info_2.4155575a.jpg",
-		"oF": 0,
-		"oIPL": 1,
+		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"q": 70
+		"q": 100
 		},
 	"\/public\/static\/images_info_3.315c17ad.jpg": {
 		"ft": 16384,
 		"iS": 65322,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/images_info_3.315c17ad.jpg",
-		"oF": 0,
-		"oIPL": 1,
+		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"q": 70
+		"q": 100
 		},
 	"\/public\/static\/images_info_4.49cab02a.jpg": {
 		"ft": 16384,
 		"iS": 57568,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/images_info_4.49cab02a.jpg",
-		"oF": 0,
-		"oIPL": 1,
+		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"q": 70
+		"q": 100
 		},
 	"\/public\/static\/images_info_7.ca97ff6d.jpg": {
 		"ft": 16384,
 		"iS": 183759,
 		"jF": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/images_info_7.ca97ff6d.jpg",
-		"oF": 0,
-		"oIPL": 1,
+		"oF": 1,
+		"oIPL": 0,
 		"opt": 1,
-		"q": 70
+		"q": 100
 		},
 	"\/public\/stats.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/public\/stats-min.json",
-		"oF": 0,
+		"oF": 1,
 		"oO": 0,
 		"oS": 1
 		},
@@ -765,6 +910,13 @@
 		"oAP": "\/public\/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cB": 0,
@@ -794,6 +946,24 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/src\/assets\/images\/hero_mobile.jpg": {
+		"ft": 16384,
+		"iS": 218239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/src\/assets\/images\/hero_mobile.jpg",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"q": 75
+		},
+	"\/src\/assets\/images\/hero_mobile.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/assets\/images\/hero_mobile.psd",
+		"oF": 0
 		},
 	"\/src\/assets\/images\/images_feature.jpg": {
 		"ft": 16384,

@@ -92,20 +92,35 @@ nav {
 	}
 }
 
-
-
-
-
-
 // WELCOME SECTION
 .section {
     &__welcome {
         display: flex;
         align-items: center;
-        background: url("../assets/images/hero_cafe.jpg") fixed;
-        background-size: cover;
         height: 100vh;
         .welcome {
+            &__backdrop {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: -1;
+                height: 100%;
+                width: 100%;
+                background: url("../assets/images/hero_cafe.jpg");
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+            }
+            @include mq('phone') {
+                &__backdrop {
+                    background: url("../assets/images/hero_mobile.jpg");
+                    background-attachment: fixed;
+                    background-position: center center;
+                    background-attachment: scroll;
+                }
+            }
             &__header {
                 flex: 1 1 32rem;
                 align-items: center;
